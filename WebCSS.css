@@ -18,13 +18,13 @@ p,img
 	background-color:lightgrey;
 }
 .left {
-    position:absolute;
+    position:fixed;
     left:70px; top:200px;
     width: 200px;
 }
 
 .down-left {
-	position:absolute;
+	position:fixed;
 	left:70px; top: 230px;
 	width: 200px;
 }
