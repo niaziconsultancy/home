@@ -43,19 +43,29 @@ p,img
 }
 .right {
     position:absolute;
-    right:94px; top:190px;
+    right:90px; top:195px;
     width: 200px;
 }
 
 .down-right {
 	position:absolute;
-	right:94px; top: 220px;
+	right:90px; top: 220px;
 	width: 200px;
 }
 
-.both-sides {
-	color:black;
+a {
 	font-family:Georgia, "Arial Narrow", sans-serif;
+	color:black;
+}
+
+.a-left
+{
+	margin-left:8%;
+}
+
+.a-right
+{
+	margin-left:7%;
 }
 
 #logo
@@ -74,4 +84,8 @@ h1,h2,p
 {
 	font-family:Georgia, "Arial Narrow", Sans-Serif;
 }
-	
+
+p
+{
+	font-size:14pt;
+}
