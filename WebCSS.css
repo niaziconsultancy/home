@@ -11,7 +11,7 @@ p,img
 
 /* Left side bar style */
 .top-left {
-    position:absolute;
+    position:fixed;
     left:70px; right:0; top:170px;
     height: 300px;
 	margin-right:78%;
