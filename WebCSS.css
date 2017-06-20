@@ -11,20 +11,20 @@ p,img
 
 /* Left side bar style */
 .top-left {
-    position:fixed;
+    position:absolute;
     left:70px; right:0; top:170px;
     height: 300px;
 	margin-right:78%;
 	background-color:lightgrey;
 }
 .left {
-    position:fixed;
+    position:absolute;
     left:70px; top:200px;
     width: 200px;
 }
 
 .down-left {
-	position:fixed;
+	position:absolute;
 	left:70px; top: 230px;
 	width: 200px;
 }
@@ -56,6 +56,7 @@ p,img
 a {
 	font-family:Georgia, "Arial Narrow", sans-serif;
 	color:black;
+	font-size:15;
 }
 
 .a-left
@@ -74,10 +75,69 @@ a {
 	margin-top:1%;
 }
 
+#afg-map
+{
+	margin-top:-12%;
+	margin-left:41%;
+	margin-bottom:1.5%;
+}
+
 #ash
+{
+	margin-top:-15%;
+	margin-left:60%;
+	margin-bottom:3%;
+}
+
+#world
 {
 	margin-top:-12%;
 	margin-left:22%;
+}
+
+#Long
+{
+	margin-top:-12%;
+	margin-left:33%;
+}
+
+#BAM
+{
+	margin-top:-18%;
+	margin-right:33%;
+	margin-left:-43%;
+}
+
+#left-img 
+{
+	position:absolute;
+	left:160px; top: 520px;
+	width: 200px;
+}
+
+#right-img 
+{
+	position:absolute;
+	right:160px; top: 520px;
+	width: 200px;
+}
+
+#ash3
+{
+	
+}
+
+#INDIA
+{
+	margin-left:23%;
+	margin-right:22%;
+	margin-bottom:-1%;
+}
+
+#MAYORS
+{
+	margin-left:51%;
+	margin-top:-50%;
 }
 
 h1,h2,p
@@ -89,3 +149,10 @@ p
 {
 	font-size:14pt;
 }
+	
+	
+	
+	
+	
+	
+	
