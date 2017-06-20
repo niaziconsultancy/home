@@ -1,3 +1,4 @@
+
 h1,h2
 {
 	text-align:center;
@@ -122,9 +123,17 @@ a {
 	width: 200px;
 }
 
+#right-img2
+{
+	position:absolute;
+	right:140px; top: 10px;
+	width: 200px;
+}
+
 #ash3
 {
-	
+	margin-left:37%;
+	margin-right:20%;
 }
 
 #INDIA
