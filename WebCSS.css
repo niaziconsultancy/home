@@ -1,4 +1,3 @@
-
 h1,h2
 {
 	text-align:center;
@@ -13,20 +12,26 @@ p,img
 /* Left side bar style */
 .top-left {
     position:absolute;
-    left:70px; right:0; top:170px;
-    height: 300px;
+    left:70px; right:0; top:150px;
+    height: 270px;
 	margin-right:78%;
 	background-color:lightgrey;
 }
 .left {
     position:absolute;
-    left:70px; top:200px;
+    left:70px; top:260px;
     width: 200px;
 }
 
 .down-left {
 	position:absolute;
-	left:70px; top: 230px;
+	left:70px; top: 290px;
+	width: 200px;
+}
+
+.downdown-left {
+	position:absolute;
+	left:70px; top: 322px;
 	width: 200px;
 }
 
@@ -35,7 +40,7 @@ p,img
 .top-right {
     position:absolute;
     left:0; right:70px; top:160px;
-    height: 300px;
+    height: 200px;
 	margin-left:78%;
 	border-color:lightgrey;
 	border-width:8px;
@@ -44,13 +49,13 @@ p,img
 }
 .right {
     position:absolute;
-    right:90px; top:195px;
+    right:90px; top:265px;
     width: 200px;
 }
 
 .down-right {
 	position:absolute;
-	right:90px; top: 220px;
+	right:90px; top: 293px;
 	width: 200px;
 }
 
@@ -104,9 +109,12 @@ a {
 
 #BAM
 {
-	margin-top:-18%;
-	margin-right:33%;
-	margin-left:-43%;
+	margin-left:110%;
+}
+
+#Valley
+{
+	margin-left:52%;
 }
 
 #left-img 
@@ -119,7 +127,7 @@ a {
 #right-img 
 {
 	position:absolute;
-	right:160px; top: 520px;
+	right:140px; top: 520px;
 	width: 200px;
 }
 
@@ -130,7 +138,8 @@ a {
 	width: 200px;
 }
 
-#ash3
+
+#Ceremony
 {
 	margin-left:37%;
 	margin-right:20%;
@@ -158,9 +167,51 @@ p
 {
 	font-size:14pt;
 }
-	
-	
-	
+
+#Night
+{
+	margin-left:73%;
+}
+
+#Masjid
+{
+	margin-left:70%;
+}
+
+#Mazar
+{
+	margin-left:55%;
+}
+
+#Mazar-night
+{
+	margin-left:73%;
+}
+
+.bar-head
+{
+	font-size:16pt;
+}
+
+#AP
+{
+	margin-left:75%;
+}
+
+#Munar
+{
+	margin-left:75%;
+}
+
+#Saff
+{
+	margin-left:69%;
+}
+
+#HeratSaff
+{
+	margin-left:55%;
+}
 	
 	
 	
