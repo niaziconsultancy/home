@@ -1,3 +1,10 @@
+.page-wrap
+{
+	width:960px;
+	margin:0 auto;
+	position:relative;
+}
+
 h1,h2
 {
 	text-align:center;
