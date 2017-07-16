@@ -1,14 +1,8 @@
-p,h2
-{
-	margin-top:30%;
-}
-
 #num1
 {
 	position:absolute;
     	left:0%; right:5%; 
 	margin-bottom:20%;
-	margin-top:-20%;
 }
 
 #num2
