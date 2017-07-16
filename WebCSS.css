@@ -8,6 +8,7 @@ p,h2
 	position:absolute;
     	left:0%; right:5%; 
 	margin-bottom:20%;
+	margin-top:-20%;
 }
 
 #num2
