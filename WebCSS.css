@@ -12,27 +12,27 @@ p
 /* Left side bar style */
 .top-left {
     position:absolute;
-    left:70px; right:0; top:29%;
-    height: 250px;
+    left:5%; right:0; top:29%;
+    height: 35%;
 	margin-right:78%;
 	background-color:lightgrey;
 }
 .left {
     position:absolute;
-    left:70px; top:280px;
-    width: 200px;
+    left:5%; top:44%;
+    width: 15%;
 }
 
 .down-left {
 	position:absolute;
-	left:70px; top: 310px;
-	width: 200px;
+	left:5%; top: 48.5%;
+	width: 15%;
 }
 
 .downdown-left {
 	position:absolute;
-	left:70px; top: 340px;
-	width: 200px;
+	left:5%; top: 53%;
+	width: 15%;
 }
 
 
@@ -206,3 +206,4 @@ p
 	margin-left:2%;
 }
 	
+
