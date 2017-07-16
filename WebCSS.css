@@ -3,7 +3,7 @@ h1,h2
 	text-align:center;
 }
 
-p,img
+p
 {
 	margin-left:22%;
 	margin-right:22%;
@@ -12,7 +12,7 @@ p,img
 /* Left side bar style */
 .top-left {
     position:absolute;
-    left:70px; right:0; top:180px;
+    left:70px; right:0; top:29%;
     height: 250px;
 	margin-right:78%;
 	background-color:lightgrey;
@@ -39,11 +39,11 @@ p,img
 /* Right side bar style */
 .top-right {
     position:absolute;
-    left:0; right:70px; top:180px;
-    height: 270px; width: 240px;
+    left:0%; top:30%;
+    height: 45%; width: 17%;
 	margin-left:78%;
 	border-color:lightgrey;
-	border-width:8px;
+	border-width: 8px;
 	border-style:solid;
 	border-radius:15px;
 }
@@ -97,8 +97,7 @@ a {
 
 #Long
 {
-	margin-top:-12%;
-	margin-left:33%;
+	margin-left:20%;
 }
 
 #BAM
@@ -125,14 +124,6 @@ a {
 	width: 200px;
 }
 
-#right-img2
-{
-	position:absolute;
-	right:140px; top: 10px;
-	width: 200px;
-}
-
-
 #Ceremony
 {
 	margin-left:37%;
@@ -141,15 +132,12 @@ a {
 
 #INDIA
 {
-	margin-left:23%;
-	margin-right:22%;
-	margin-bottom:-1%;
+	margin-left:80%;
 }
 
 #MAYORS
 {
-	margin-left:51%;
-	margin-top:-50%;
+	margin-left:82%;
 }
 
 h1,h2,p
