@@ -1,7 +1,8 @@
 #num1
 {
 	position:absolute;
-    	left:0%; right:5%; bottom:20%;
+    	left:0%; right:5%; 
+	margin-bottom:20%;
 }
 
 #num2
