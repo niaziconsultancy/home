@@ -1,31 +1,9 @@
-#num1
-{
-	margin:left:0%;
-}
-
-#num2
-{
-	margin-left:0%;
-}
-
-
-body
-{
-	text-align:center;
-}
-
-img
-{
-	margin-left:30%;
-	margin-right:50%;
-}
-
 h1,h2
 {
 	text-align:center;
 }
 
-p
+p,img
 {
 	margin-left:22%;
 	margin-right:22%;
@@ -34,38 +12,38 @@ p
 /* Left side bar style */
 .top-left {
     position:absolute;
-    left:5%; right:0; top:29%;
-    height: 35%;
+    left:70px; right:0; top:180px;
+    height: 250px;
 	margin-right:78%;
 	background-color:lightgrey;
 }
 .left {
     position:absolute;
-    left:5%; top:44%;
-    width: 15%;
+    left:70px; top:280px;
+    width: 200px;
 }
 
 .down-left {
 	position:absolute;
-	left:5%; top: 48.5%;
-	width: 15%;
+	left:70px; top: 310px;
+	width: 200px;
 }
 
 .downdown-left {
 	position:absolute;
-	left:5%; top: 53%;
-	width: 15%;
+	left:70px; top: 340px;
+	width: 200px;
 }
 
 
 /* Right side bar style */
 .top-right {
     position:absolute;
-    left:0%; top:30%;
-    height: 45%; width: 17%;
+    left:0; right:3%; top:180px;
+    height: 270px; width: 240px;
 	margin-left:78%;
 	border-color:lightgrey;
-	border-width: 8px;
+	border-width:8px;
 	border-style:solid;
 	border-radius:15px;
 }
@@ -119,7 +97,8 @@ a {
 
 #Long
 {
-	margin-left:20%;
+	margin-top:-12%;
+	margin-left:33%;
 }
 
 #BAM
@@ -146,21 +125,31 @@ a {
 	width: 200px;
 }
 
+#right-img2
+{
+	position:absolute;
+	right:140px; top: 10px;
+	width: 200px;
+}
+
+
 #Ceremony
 {
-	margin-left:20%;
+	margin-left:37%;
 	margin-right:20%;
 }
 
 #INDIA
 {
-	margin-left:80%;
-	margin-right:40%;
+	margin-left:23%;
+	margin-right:22%;
+	margin-bottom:-1%;
 }
 
 #MAYORS
 {
-	margin-left:82%;
+	margin-left:51%;
+	margin-top:-50%;
 }
 
 h1,h2,p
@@ -229,4 +218,8 @@ p
 	margin-left:2%;
 }
 	
+
+
+
+
 
