@@ -5,8 +5,8 @@ h1,h2
 
 p,img
 {
-	margin-left:22%;
-	margin-right:22%;
+	margin-left:300px;
+	margin-right:300px;
 }
 
 /* Left side bar style */
@@ -182,11 +182,6 @@ p
 	margin-left:73%;
 }
 
-.bar-head
-{
-	font-size:16pt;
-}
-
 #AP
 {
 	margin-left:75%;
@@ -209,17 +204,22 @@ p
 	
 .big
 {
-	font-size:14pt;
+	font-size:16pt;
+	margin-left:22px;
+	margin-right:32px;
+}
+	
+.big2
+{
+	margin-left:22px;
+	margin-right:22px;
+	font-size:16pt;
 }
 	
 .small
 {
 	font-size:11pt;
-	margin-left:2%;
+	margin-left:10px;
+	margin-right:20px;
 }
 	
-
-
-
-
-
