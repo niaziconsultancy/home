@@ -1,11 +1,6 @@
-p
+.top-left
 {
-	min-width:900%;
-}
-
-html
-{
-	min-width:940px;
+	max-height:10%;
 }
 
 h1,h2
