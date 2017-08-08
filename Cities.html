@@ -1,137 +1,245 @@
-<!doctype html>
-<html>
-	<head> 
-		<title> Ali Niazi </title>
-		<link rel="stylesheet" type="text/css" href="WebCSS.css"/>
-	</head>
-	<body id="K">
-	
-		<!--This is the left side-bar -->
-	<div class="top-left">
-		<p class="big2"> Pages: </p>
-		<a class="a-left" href= "index.html"> Home Page </a>
-	</div>
-	
-	<div class="left">
-		<a class="a-left" href= "Cities.html"> Important Cities </a>
-	</div>
-	
-	<div class="down-left">
-		<a class="a-left" href= "Economy.html"> Economy </a>
-	</div>
-	
-	<div class="downdown-left">
-		<a class="a-left" href= "Contact.html"> Contact Us </a>
-	</div>
-	
-	<!--This is the right side-bar -->
-	<div class="top-right">
-		<p class="big"> Contact Us </p>
-		<p class="small"> Phone: 078-6511516 OR 020-2230066 </p>
-		<p class="small"> Email: niaziali.consultancy@gmail.com </p>
-		<p class="small"> Address: Taimany Project/ Opposite to Salim Carvan Plaza, </p> 
-		<p class="small"> Street 4,District 4, Kabul, Afghanistan </p>
-	</div>
-	
-		<!--TOP PICTURES-->
-	
-	<table><tr><td>
-		<img id="logo" src="logo3.JPG" width="230" height="155" alt="Our Company Logo">
-	</td><td>
-		<img id="world" src="afghanistan-location-map.jpg" width="240" height="150" alt="Afghanistan on world map">
-	</td><td>
-		<img id="afg-map" src="afghanistan-map.gif" width="240" height="150" alt="Afghanistan's map">
-	</td><td>
-		<img id="ash" src="b1.jpg" width="240" height="150" alt="Ashraf Ghani">
-	</td><td>
-		<img id="MAZ" src="mazar3.jpg" width="280" height="150" alt="Mazar e Sharif">
-	</td></tr></table>
+h1,h2
+{
+	text-align:center;
+}
 
-		<h1> Important Cities </h2>
-		
-		<h2> Kabul </h2>
-		<p> Kabul is Afghanistan's largest city, located in the eastern part of the country.
-		It's most spoken languages are Pashto and Dari. It is Afghanistan's capital city. 
-		Kabul's population is around 4 million, and it is the 64th largest country in the wrld.
-		Kabul is around 3500 years old.  In the early 19th century, the British occupied the city but were compelled to abandon it. 
-		Relations between Afghanistan and Great Britain were later established. 
-		The city was occupied by the Soviets in 1979 but they too abandoned it after the 1988 Geneva Accords were signed. 
-		A civil war in the 1990s between various rebel groups destroyed much of the city, resulting in many casualties.
-		Since the removal of the Taliban from power in late 2001, the city gradually began rebuilding itself with assistance by the international community. 
-		Despite the many terrorist attacks by anti-state elements, the city is growing and developing. 
-		The city is divided into about 18 districts.
+p,img
+{
+	margin-left:300px;
+	margin-right:300px;
+}
+
+/* Left side bar style */
+.top-left {
+    position:absolute;
+    left:70px; right:0; top:180px;
+    height: 250px;
+	margin-right:78%;
+	background-color:lightgrey;
+}
+.left {
+    position:absolute;
+    left:70px; top:280px;
+    width: 200px;
+}
+
+.down-left {
+	position:absolute;
+	left:70px; top: 310px;
+	width: 200px;
+}
+
+.downdown-left {
+	position:absolute;
+	left:70px; top: 340px;
+	width: 200px;
+}
+
+
+/* Right side bar style */
+.top-right {
+    position:absolute;
+    left:0; right:3%; top:180px;
+    height: 270px; width: 240px;
+	margin-left:78%;
+	border-color:lightgrey;
+	border-width:8px;
+	border-style:solid;
+	border-radius:15px;
+}
+
+a {
+	font-family:Georgia, "Arial Narrow", sans-serif;
+	color:black;
+	font-size:15;
+}
+
+.a-left
+{
+	margin-left:8%;
+}
+
+.a-right
+{
+	margin-left:2%;
+}
+
+#logo
+{
+	margin-left:27%;
+	margin-right:-27%;
+}
+
+#afg-map
+{
+	margin-bottom:1%;
+	margin-right:-28%;
+	margin-left:28%;
+}
+
+#ash
+{
+	margin-left:30%;
+	margin-right:-30%;
+}
+
+#world
+{
+	margin-left:26%;
+	margin-right:-26%;
+}
+
+#MAZ
+{
+	margin-left:27%;
+	margin-right:-27%;
+}
+
+#Long
+{
+	margin-top:-12%;
+	margin-left:33%;
+}
+
+#BAM
+{
+	margin-left:50%;
+}
+
+#Valley
+{
+	margin-left:-2%;
+}
+
+#left-img 
+{
+	position:absolute;
+	left:160px; top: 520px;
+	width: 200px;
+}
+
+#right-img 
+{
+	position:absolute;
+	right:140px; top: 520px;
+	width: 200px;
+}
+
+#right-img2
+{
+	position:absolute;
+	right:140px; top: 10px;
+	width: 200px;
+}
+
+
+#Ceremony
+{
+	margin-left:37%;
+	margin-right:20%;
+}
+
+#INDIA
+{
+	margin-left:23%;
+	margin-right:22%;
+	margin-bottom:-1%;
+}
+
+#MAYORS
+{
+	margin-left:51%;
+	margin-top:-50%;
+}
+
+h1,h2,p
+{
+	font-family:Georgia, "Arial Narrow", Sans-Serif;
+}
+
+p
+{
+	font-size:14pt;
+}
+
+#Night
+{
+	margin-left:-2%;
+}
+
+#Masjid
+{
+	margin-left:41%;
+}
+
+#Mazar
+{
+	margin-left:-3%;
+}
+
+#Mazar-night
+{
+	margin-left:42%;
+}
+
+#AP
+{
+	margin-left:40%;
+}
+
+#Munar
+{
+	margin-left:-2%;
+}
+
+#Saff
+{
+	margin-left:40%;
+}
+
+#HeratSaff
+{
+	margin-left:-2%;
+}
+
+#fruits
+{
+	margin-left:20%;
+}
+
+#carpet
+{
+	margin-left:-23%;
+}
+
+#cotton
+{
+	margin-left:-75%;
+}	
+
+#Econ
+{
+	margin-left:40%;
+}
 	
-	<table><tr><td>
-		<img id="Masjid" src="Masjid.jpg" width="377" height="250" alt="A picture of Masjid in Kabul">
-	</td><td>
-		<img id="Night" src="Night.jpg" width="377" height="250" alt="A picture of Kabul at night">
-	</td></tr></table>
-
-		<h2 id="M"> Mazar-e-sharif </h2>
-		<p> Mazar-e-Sharif is the third largest city in Afghanistan. 
-		It is the capital of the province Balkh, and has a population of around 600,000.
-		Mazar-e Sharif, along with Herat, Jalalabad in the east and Kandahar in the south, makes Afghanistan an important strategic location in Asia. 
-		These type of locations are very important to Afghanistan because of the wars they have had.
-		These were greatly used in battles. Mazar-e-sharif is also in close proximity to Uzbekistan and Tajikistan.
-		The Mazar Sharif Airport has been heavily used during th 1980's soviet war.
-		The name "Mazar-e-Sharif means "Noble Shrine" and is a reference to the large, blue tiled
-		sanctuary and mozque in the center of the city know as the Shrine of Hazrat Ali or the
-		Blue Mosque. The people of Mazar-e-Sharif are very generous and kind people. They are welcoming
-		guests, and are very religious. The religion in Mazar-e-Sharif is Islam, like the rest of Afghanistan. </p>
-		
-		<table><tr><td>
-			<img id="Mazar-night" src="Mazar-night.jpg" width="340" height="250" alt="A picture of Mazar at night">
-		</td><td>
-			<img id="Mazar" src="mazar3.jpg" width="460" height="250" alt="A picture of Mazar at night">
-		</td></tr></table>
-		
-		<h2 id="B"> Bamiyan </h2>
-		<p> Bamyian is a historic city in the centre of afghanistan with wide mountain ranges and beautiful valleys. </p>
-		<p> The Budhas of Bamiyan being one of the most famous landmarks of the city, has come to be a beautiful historic and tourist attraction site. 
-		This cut out Budha in the central valley of bamyian is one fo the largest cut out budha in the wrold. This landmark marks the strong belief in buddhism back in the 6th and 7th century. 
-		The two monuments located on the east and west side of the valley are carved into the mountain. The first of these monuments being 175 feet in height and the second approximately 120 feet. 
-		Both budhas seems to have indian culture or some greek cultural origin since they were described to have robes on and have had curly hair carved.
-		They have mostly been bombarded in the recent years due to the wars occuring in Afghanistan and it being a islamic country did not encourage the practice of worshipping the monuments. 
-		These budhas were distructed mostly by Mullah omar and his taliban forces in 2001 and justified this act as the sculture were bound to be destroyed since bamyian has been an islamic countries for many centuries now. 
-		Only a few details of the buddhas remain and rebuilding or reconstruction of it would be nearly imposssible as nearly all the original pictures or portraits of the buddahs has been destroyed. </p>
-
-		<table><tr><td>
-			<img id="BAM" src="bamyian.jpg" width="250" height="280" alt="Bamyian">
-		</td><td>
-			<img id="Valley" src="Valley.jpg" width="530" height="280" alt="Bamyian">
-		</td></tr></table>
-		
-		
-		
-		
-		
-		<h2 id="H"> Herat </h2>
-		<p> Herat is one of the most important and attracting cities of Afghanistan.
-			It has a population of around 436,000. It is situated in the fertile valley of 
-			Hari River. It is linked with Kandahar and Mazar-e-Sharif by highway. Herat has
-			a number of attracting sites such as the Herat Citadel and the Mosallah Complex.
-			Herat has been governed by various Afghan rulers since the early 18th century.
-			Herat lies on the ancient trade routes of the Middle East, Central and South Asia. 
-			As the gateway to Iran, Herat collects high amount of customs revenue for Afghanistan.
-			The city has an international airport. Herat has a high residential density clustered
-			around the core. Agricultural land is the largest percentage of the total land use.</p>
-		
-		<table><tr><td>
-			<img id="AP" src="AP.jpg" width="390" height="250" alt="Herat Airport">
-		</td><td>
-			<img id="Munar" src="Munar.jpg" width="400" height="250" alt="Herat Attraction">
-		</td></tr></table>
- 		
-		<p> Herat also grows a lot of crops on its land. Saffron is being cultivated all over the province
-		as a high value crop. Herat is actually very famous for its saffron, and even has many companies such
-		as Herat Saffron TM. It imports and exports from and to all over the world. </p>
-			
-		<table><tr><td>
-			<img id="Saff" src="Saff.jpg" width="400" height="250" alt="Saffron being planted in Herat">
-		</td><td>
-			<img id="HeratSaff" src="HeratSaff.jpg" width="520" height="250" alt="Herat Saffron">
-		</td></tr></table>
-		
-	</body>
-</html>		
-
+.big
+{
+	font-size:16pt;
+	margin-left:22px;
+	margin-right:32px;
+}
+	
+.big2
+{
+	margin-left:22px;
+	margin-right:22px;
+	font-size:16pt;
+}
+	
+.small
+{
+	font-size:11pt;
+	margin-left:10px;
+	margin-right:20px;
+}
+	
