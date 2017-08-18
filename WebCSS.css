@@ -40,7 +40,7 @@ p,img
 .top-right {
     position:absolute;
     left:0; right:3%; top:180px;
-    height: 270px; width: 240px;
+    height: 280px; width: 240px;
 	margin-left:78%;
 	border-color:lightgrey;
 	border-width:8px;
